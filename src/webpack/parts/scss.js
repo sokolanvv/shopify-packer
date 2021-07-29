@@ -23,6 +23,7 @@ const cssLoader = {
   options: {
     importLoaders: 2,
     sourceMap: isDev,
+    url: false,
   },
 };
 

@@ -26,7 +26,7 @@ const cssLoader = {
   // the DOM for styles (width, height, visibility) on page load.
   options: {
     sourceMap: !isDev,
-    url: !isDev,
+    url: false,
   },
 };
 
