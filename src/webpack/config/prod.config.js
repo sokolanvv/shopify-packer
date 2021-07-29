@@ -52,7 +52,7 @@ const output = merge([
       }),
 
       new MiniCssExtractPlugin({
-        filename: '[name].css',
+        filename: '[name].css.liquid',
       }),
 
       new webpack.DefinePlugin({
